@@ -1,4 +1,25 @@
 site_name: Mastering Django
+site_description: Complete Django Study Notes
+site_author: Milan Paudel
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - pdf-export:
+      combined: true
+      media_type: print
+      cover: true
+      cover_title: Mastering Django
+      cover_subtitle: Complete Study Notes
+      cover_author: Milan Paudel
+      toc_title: Table of Contents
+
+extra_css:
+  - stylesheets/extra.css
+
+site_name: Mastering Django
 site_url: https://example.com/docs/
 dev_addr: 127.0.0.1:9000
 docs_dir: docs
